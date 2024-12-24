@@ -79,11 +79,7 @@ public class fa {
             System.out.println("Do you want to input next String ?");
             System.out.println("Type yes or no");
             String inp = sc.next();
-            if (inp == "yes") {
-                continue;
-            }
-            else
-            {
+            if (inp.equals("no")) {
                 break;
             }
         }
